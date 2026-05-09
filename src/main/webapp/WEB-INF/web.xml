@@ -9,7 +9,7 @@
   <!-- Application display name -->
   <display-name>DevOps Workflow Web Application</display-name>
 
-  <!-- Example servlet configuration (optional, add if needed)
+  <!-- Simple HelloServlet mapping -->
   <servlet>
     <servlet-name>HelloServlet</servlet-name>
     <servlet-class>com.example.HelloServlet</servlet-class>
@@ -19,6 +19,5 @@
     <servlet-name>HelloServlet</servlet-name>
     <url-pattern>/hello</url-pattern>
   </servlet-mapping>
-  -->
 
 </web-app>
