@@ -1,7 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE web-app PUBLIC
  "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
+<!-- Deployment descriptor for DevOps Workflow demo application -->
 <web-app>
-  <display-name>Archetype Created Web Application</display-name>
+  
+  <!-- Application display name -->
+  <display-name>DevOps Workflow Web Application</display-name>
+
+  <!-- Example servlet configuration (optional, add if needed)
+  <servlet>
+    <servlet-name>HelloServlet</servlet-name>
+    <servlet-class>com.example.HelloServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>HelloServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+  </servlet-mapping>
+  -->
+
 </web-app>
