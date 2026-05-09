@@ -10,6 +10,12 @@ This project demonstrates a **Java web application** deployed with **CI/CD pipel
 It includes a working servlet endpoint (`/hello`), Maven build configuration, and integration with AWS artifact repositories.
 
 ---
+
+## 🚀 Quickstart
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/obintui10/devops-workflow.git
+   cd devops-workflow
 ## 📂 Repository Structure
 ```text
 devops-workflow/
@@ -21,12 +27,6 @@ devops-workflow/
 │   │   ├── java/com/example/HelloServlet.java
 │   │   └── webapp/WEB-INF/web.xml
 │   └── test/java/...    # JUnit test classes
-
-## 🚀 Quickstart
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/obintui10/devops-workflow.git
-   cd devops-workflow
 
 ## Box‑Style ASCII Diagram
 +---------------------------+          +---------------------------+
@@ -63,4 +63,9 @@ flowchart TD
     C --> D[Package WAR]
     D --> E[Deploy to Tomcat/Jetty]
     E --> F[Accessible /hello Endpoint]
-
+```
+## 🌟 Future Work
+- Add GitHub Actions workflow (.github/workflows/ci-cd.yml) to mirror AWS CodeBuild.
+- Extend servlet functionality with REST endpoints.
+- Add frontend JSP/HTML for recruiter‑friendly demo.
+- Integrate monitoring with CloudWatch/Grafana.
