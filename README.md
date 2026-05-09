@@ -62,7 +62,7 @@ flowchart TD
     B --> C[Maven Compile & Test]
     C --> D[Package WAR]
     D --> E[Deploy to Tomcat/Jetty]
-    E --> F[Accessible /hello Endpoint]
+    E --> F[Accessible /Hello Endpoint]
 ```
 ## 🌟 Future Work
 - Add GitHub Actions workflow (.github/workflows/ci-cd.yml) to mirror AWS CodeBuild.
