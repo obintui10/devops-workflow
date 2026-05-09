@@ -1,0 +1,56 @@
+# Logs
+*.log
+logs/
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Build outputs
+build/
+dist/
+out/
+
+# Cache & temp files
+.cache/
+*.tmp
+
+# Environment variables
+.env
+.env.local
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker artifacts
+**/docker-compose.override.yml
+**/docker-compose.local.yml
+.dockerignore
+
+# Kubernetes manifests (local overrides)
+*.yaml.tmp
+*.yml.tmp
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Jenkins
+*.jenkins
+.jenkins/
+
+# Ansible
+*.retry
+
+# SonarQube
+.sonar/
+.scannerwork/
+.sonar_lock
